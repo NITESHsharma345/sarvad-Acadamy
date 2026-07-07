@@ -69,7 +69,7 @@ export default function Navbar() {
             </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-1">
+          <nav className="hidden xl:flex items-center gap-1">
             {NAV_LINKS.map((link) => (
               <div key={link.label} className="relative"
                 onMouseEnter={() => link.children && setMegaMenu(link.label)}
@@ -122,7 +122,7 @@ export default function Navbar() {
           </nav>
 
           {/* CTA Buttons */}
-          <div className="hidden lg:flex items-center gap-3">
+          <div className="hidden xl:flex items-center gap-3">
             <a
               href={`tel:${SITE_CONFIG.whatsappNumber}`}
               className={clsx(
@@ -148,7 +148,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setOpen(!open)}
-            className="lg:hidden p-2 rounded-xl transition-colors"
+            className="xl:hidden p-2 rounded-xl transition-colors"
             style={{ color: "var(--color-primary-dark)" }}
             aria-label="Toggle menu"
           >
@@ -165,7 +165,7 @@ export default function Navbar() {
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3 }}
-              className="lg:hidden bg-white border-t border-gray-100 shadow-xl overflow-y-auto max-h-[calc(100vh-120px)]"
+              className="xl:hidden bg-white border-t border-gray-100 shadow-xl overflow-y-auto max-h-[calc(100vh-120px)]"
             >
               <div className="container py-6 space-y-1">
                 {NAV_LINKS.map((link) => (

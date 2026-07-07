@@ -36,7 +36,7 @@ export default function Hero() {
       {floatingIcons.map(({ icon: Icon, label, x, y, delay }) => (
         <motion.div
           key={label}
-          className="absolute hidden lg:flex items-center justify-center"
+          className="absolute hidden xl:flex items-center justify-center"
           style={{ left: x, top: y }}
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
