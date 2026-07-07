@@ -26,7 +26,7 @@ const stats = [
 
 export default function Hero() {
   return (
-    <section className="bg-hero min-h-screen relative overflow-hidden flex items-center grid-pattern">
+    <section className="bg-hero min-h-screen relative overflow-hidden flex flex-col justify-start md:justify-center items-center grid-pattern">
       {/* Floating ambient blobs */}
       <div className="floating-shape w-96 h-96 bg-blue-600 top-[-10%] right-[-10%]" />
       <div className="floating-shape w-80 h-80 bg-amber-500 bottom-[-5%] left-[-5%]" />
