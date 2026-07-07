@@ -91,7 +91,7 @@ export default function About() {
               <div className="rounded-3xl overflow-hidden shadow-xl aspect-[4/3] flex items-center justify-center"
                 style={{ background: "var(--gradient-primary)" }}>
                 <div className="text-center p-12">
-                  <div className="text-8xl font-black mb-4" style={{
+                  <div className="text-6xl sm:text-7xl md:text-8xl font-black mb-4" style={{
                     fontFamily: "var(--font-heading)",
                     background: "var(--gradient-accent)",
                     WebkitBackgroundClip: "text",

@@ -77,15 +77,17 @@ export default function EliteFive() {
                 </p>
 
                 {/* 5 student visual */}
-                <div className="flex items-center gap-3 mb-6">
-                  {[1, 2, 3, 4, 5].map((n) => (
-                    <div key={n}
-                      className="w-12 h-12 rounded-full border-2 border-amber-400/50 bg-amber-400/10 flex items-center justify-center text-amber-400 font-bold text-sm"
-                      style={{ fontFamily: "var(--font-heading)" }}>
-                      S{n}
-                    </div>
-                  ))}
-                  <div className="ml-2 text-amber-400/60 text-sm">Max 5 seats</div>
+                <div className="flex flex-wrap items-center gap-2 mb-6">
+                  <div className="flex items-center gap-1.5">
+                    {[1, 2, 3, 4, 5].map((n) => (
+                      <div key={n}
+                        className="w-9 h-9 sm:w-12 sm:h-12 rounded-full border-2 border-amber-400/50 bg-amber-400/10 flex items-center justify-center text-amber-400 font-bold text-xs sm:text-sm"
+                        style={{ fontFamily: "var(--font-heading)" }}>
+                        S{n}
+                      </div>
+                    ))}
+                  </div>
+                  <div className="ml-2 text-amber-400/60 text-xs sm:text-sm whitespace-nowrap">Max 5 seats</div>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4">

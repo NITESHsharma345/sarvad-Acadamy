@@ -52,7 +52,7 @@ export default function TrustedBy() {
             <motion.div
               key={label}
               variants={fadeUp}
-              className="card p-7 text-center group relative overflow-hidden"
+              className="card p-4 sm:p-7 text-center group relative overflow-hidden"
             >
               {/* Background gradient blob */}
               <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${color} opacity-5 rounded-full -translate-y-8 translate-x-8 group-hover:opacity-10 transition-opacity`} />
@@ -77,7 +77,7 @@ export default function TrustedBy() {
                 {suffix}
               </div>
 
-              <div className="text-sm font-semibold" style={{
+              <div className="text-xs sm:text-sm font-semibold" style={{
                 color: "var(--color-text-secondary)",
                 fontFamily: "var(--font-accent)"
               }}>
