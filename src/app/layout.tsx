@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.png",
   },
   metadataBase: new URL("https://sarvdacademy.com"),
 };
