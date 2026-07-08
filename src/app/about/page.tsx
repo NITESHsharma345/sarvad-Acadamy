@@ -15,7 +15,7 @@ export default function AboutPage() {
   return (
     <>
       <Navbar />
-      <main className="pt-20">
+      <main className="">
         <About />
         <WhyChoose />
       </main>

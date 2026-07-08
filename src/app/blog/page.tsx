@@ -14,7 +14,7 @@ export default function BlogPage() {
   return (
     <>
       <Navbar />
-      <main className="pt-20">
+      <main className="">
         <Blog />
       </main>
       <Footer />

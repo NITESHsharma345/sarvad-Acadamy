@@ -58,11 +58,11 @@ export default function Hero() {
 
       {/* ── MAIN CONTENT ────────────────────────────────────────────── */}
       {/*
-        pt-36  = 144px on mobile  — clears fixed navbar (~60px) + nice breathing room
-        pt-48  = 192px on md/lg   — clears fixed navbar + announcement bar (~104px)
+        Sticky navbar is in document flow — no large offset needed.
+        pt-8 / pt-10 / pt-16 gives clean breathing room on all breakpoints.
         pb-24 / pb-32 — bottom breathing room before TrustedBy section
       */}
-      <div className="container relative z-10 w-full pt-36 sm:pt-40 md:pt-48 pb-24 md:pb-32">
+      <div className="container relative z-10 w-full pt-8 sm:pt-10 md:pt-16 pb-24 md:pb-32">
         <div className="max-w-4xl mx-auto text-center px-2 sm:px-0">
 
           {/* Badge */}

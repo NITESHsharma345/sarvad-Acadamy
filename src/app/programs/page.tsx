@@ -16,7 +16,7 @@ export default function ProgramsPage() {
   return (
     <>
       <Navbar />
-      <main className="pt-20">
+      <main className="">
         <Programs />
         <EliteFive />
         <UltimateOne />

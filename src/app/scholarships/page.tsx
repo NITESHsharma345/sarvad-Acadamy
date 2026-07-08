@@ -14,7 +14,7 @@ export default function ScholarshipsPage() {
   return (
     <>
       <Navbar />
-      <main className="pt-20">
+      <main className="">
         <Scholarship />
       </main>
       <Footer />
