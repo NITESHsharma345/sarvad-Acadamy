@@ -4,11 +4,14 @@ export const SITE_CONFIG = {
   description:
     "India's most trusted personalized learning and mentorship platform. Expert guidance for Class 5–12, JEE, NEET, CUET, UPSC, and professional courses.",
   url: "https://sarvdacademy.com",
-  whatsapp: "https://wa.me/qr/XF7A2SIM62QCB1",
-  whatsappNumber: "+919999999999",
-  email: "info@sarvdacademy.com",
-  phone: "+91 99999 99999",
+  whatsapp: "https://wa.me/919355133207",
+  whatsappNumber: "+919355133207",
+  email: "sarvdacademy@gmail.com",
+  phone: "+91 93551 33207",
   address: "New Delhi, India",
+  facebook: "https://www.facebook.com/share/1Bra3mg7x7/",
+  instagram: "https://www.instagram.com/sarvdacademy?igsh=MWo2OWk0ZjF2amp0dg==",
+  linkedin: "https://www.linkedin.com/in/sarvd-academy-43a66941a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   applyLink:
     "https://docs.google.com/forms/d/e/1FAIpQLSdxkWi48F-Y2UFDic8mnvYafETTn_SPmlr35oRRUeUL1ZAsXg/viewform",
   admissionsLink: "https://forms.gle/E9Rq72d89CA9S6v49",

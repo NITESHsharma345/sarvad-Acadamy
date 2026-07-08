@@ -31,7 +31,7 @@ export default function AnnouncementBar() {
           transition={{ duration: 0.3 }}
           className="announcement-bar"
         >
-          <div className="container flex items-center justify-center gap-3">
+          <div className="container flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5 py-1.5 md:py-0">
             <Sparkles className="w-4 h-4 shrink-0" />
             <p className="text-sm font-semibold">
               🎓 Admissions Open 2025–26 — Book Your{" "}
