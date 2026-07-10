@@ -8,7 +8,7 @@ export const SITE_CONFIG = {
   whatsappNumber: "+919355133207",
   email: "sarvdacademy@gmail.com",
   phone: "+91 93551 33207",
-  address: "New Delhi, India",
+  address: "Faridabad, Haryana, India",
   facebook: "https://www.facebook.com/share/1Bra3mg7x7/",
   instagram: "https://www.instagram.com/sarvdacademy?igsh=MWo2OWk0ZjF2amp0dg==",
   linkedin: "https://www.linkedin.com/in/sarvd-academy-43a66941a?utm_source=share_via&utm_content=profile&utm_medium=member_android",

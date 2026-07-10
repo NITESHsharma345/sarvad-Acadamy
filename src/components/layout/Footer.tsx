@@ -61,7 +61,7 @@ export default function Footer() {
     <footer style={{ background: "var(--gradient-primary)" }} className="text-white">
 
       {/* ── MAIN FOOTER ────────────────────────────────────────────── */}
-      <div className="container py-12 md:py-16">
+      <div className="container pt-14 pb-14 md:pt-20 md:pb-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
 
           {/* Brand */}
