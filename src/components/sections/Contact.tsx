@@ -33,8 +33,21 @@ export default function Contact() {
   });
 
   const onSubmit = async (data: ContactForm) => {
-    await new Promise((r) => setTimeout(r, 1500));
-    console.log(data);
+    const message = [
+      `👋 *New Enquiry – SARVD Academy Website*`,
+      ``,
+      `👤 *Name:* ${data.name}`,
+      `📞 *Phone:* ${data.phone}`,
+      `📧 *Email:* ${data.email}`,
+      `📚 *Subject:* ${data.subject}`,
+      ``,
+      `💬 *Message:*`,
+      data.message,
+    ].join("\n");
+
+    const waUrl = `https://wa.me/919355133207?text=${encodeURIComponent(message)}`;
+    window.open(waUrl, "_blank");
+
     setSubmitted(true);
     reset();
     setTimeout(() => setSubmitted(false), 5000);
@@ -124,10 +137,10 @@ export default function Contact() {
                 <div className="text-center py-12">
                   <CheckCircle className="w-16 h-16 mx-auto mb-4 text-green-500" />
                   <h3 className="text-xl font-bold mb-2" style={{ color: "var(--color-primary)", fontFamily: "var(--font-heading)" }}>
-                    Message Sent!
+                    WhatsApp Opened! 🎉
                   </h3>
                   <p className="text-sm" style={{ color: "var(--color-text-secondary)" }}>
-                    Thank you! We&apos;ll get back to you within 24 hours.
+                    Your message is ready on WhatsApp. Just hit <strong>Send</strong> to reach us instantly!
                   </p>
                 </div>
               ) : (
@@ -189,9 +202,9 @@ export default function Contact() {
 
                   <button type="submit" disabled={isSubmitting} className="btn btn-primary w-full justify-center gap-2">
                     {isSubmitting ? (
-                      <><div className="w-4 h-4 border-2 border-current border-t-transparent rounded-full animate-spin" />Sending...</>
+                      <><div className="w-4 h-4 border-2 border-current border-t-transparent rounded-full animate-spin" />Opening WhatsApp...</>
                     ) : (
-                      <><Send className="w-4 h-4" />Send Message</>
+                      <><Send className="w-4 h-4" />Send via WhatsApp</>
                     )}
                   </button>
                 </form>
