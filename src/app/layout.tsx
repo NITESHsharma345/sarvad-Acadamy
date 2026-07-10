@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { poppins, inter, manrope } from "@/lib/fonts";
 import "./globals.css";
 import { organizationSchema } from "@/lib/metadata";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: {
@@ -51,6 +52,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <Analytics />
       </body>
     </html>
   );
